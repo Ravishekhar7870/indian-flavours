@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Indian Flavors - Online Food Delivery</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-pepper-hot"></i> IndianFlavors </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#food">menu</a>
+      <a href="#gallery">gallery</a>
+      <a href="#menu">specials</a>
+      <a href="#order">order</a>
+      <a href="#blogs">blogs</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>k
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(./images/biryani.jpg) no-repeat;">
+            <div class="content">
+               <span>authentic Indian cuisine</span>
+               <h3>Delicious Biryani</h3>
+               <a href="#" class="btn">Explore Now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/naan.jpg) no-repeat;">
+            <div class="content">
+               <span>flavorful and aromatic</span>
+               <h3>Freshly Baked Naan</h3>
+               <a href="#" class="btn">Explore Now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/curry.jpg) no-repeat;">
+            <div class="content">
+               <span>spice up your day</span>
+               <h3>Authentic Indian Curry</h3>
+               <a href="#" class="btn">Explore Now</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- About section start -->
+
+
+<section class="about" id="about">
+
+<div class="image">
+   <img src="./images/about-img.png" alt="">
+</div>
+
+<div class="content">
+   <h3 class="title">Experience the Richness of Indian Cuisine</h3>
+   <p>Indulge in the flavors of India, where every dish tells a story of tradition and taste. Our chefs bring you the finest ingredients and recipes to create an unforgettable dining experience.</p>
+   <a href="#" class="btn">Read More</a>
+   <div class="icons-container">
+      <div class="icons">
+         <img src="./images/about-icon-1.png" alt="">
+         <h3>authentic spices</h3>
+      </div>
+      <div class="icons">
+         <img src="./images/about-icon-2.png" alt="">
+         <h3>diverse menu</h3>
+      </div>
+      <div class="icons">
+         <img src="./images/about-icon-3.png" alt="">
+         <h3>master chefs</h3>
+      </div>
+   </div>
+</div>
+
+</section>
+
+
+<!-- About section ends -->
+<!-- food section starts -->
+
+<section class="food" id="food">
+
+   <div class="heading">
+   <span>flavorsome dishes</span>
+   <h3>our Indian Delights</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+     <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" data-name="food-1">
+         <img src="./images/samosa.jpg" alt="" style="width: 250px;">
+         <h3>Spicy Samosa</h3>
+         <div class="price">Rs 20</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-2">
+         <img src="./images/tikka.jpg" alt="" style="width:250px">
+         <h3>Chicken Tikka</h3>
+         <div class="price">Rs 150</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-3">
+         <img src="./images/dosa.jpg" alt="" style="width:250px">
+         <h3>Masala Dosa</h3>
+         <div class="price">Rs 80</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-4">
+         <img src="./images/paneer.jpg" alt="" style="width:250px">
+         <h3>Paneer Butter Masala</h3>
+         <div class="price">Rs 145</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-5">
+         <img src="./images/ladoo.jpg" alt="" style="width:250px">
+         <h3>Ladoo Dessert</h3>
+         <div class="price">Rs 100</div>
+      </div>
+</div>
+
+   <div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- food section ends -->
+<!-- food preview section starts -->
+
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="./images/samosa.jpg" alt="">
+      <h3>Spicy Samosa</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>Experience the crispy and spicy goodness of our famous Samosas. A perfect start to your Indian culinary journey!</p>
+      <div class="price">Rs 20(one piece)</div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+   <div class="food-preview" data-target="food-2">
+      <img src="./images/tikka.jpg" alt="">
+      <h3>Chicken Tikka</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Succulent pieces of chicken marinated and grilled to perfection. A true delight for your taste buds!</p>
+      <div class="price">Rs 150</div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+   <div class="food-preview" data-target="food-3">
+      <img src="./images/dosa.jpg" alt="">
+      <h3>Masala Dosa</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>Experience the crispy and spicy goodness of our famous Samosas. A perfect start to your Indian culinary journey!</p>
+      <div class="price">Rs 80</div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+   <div class="food-preview" data-target="food-4">
+      <img src="./images/paneer.jpg" alt="">
+      <h3>Paneer Butter Masala</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>Indulge in the rich and creamy texture of Paneer Butter Masala. A true vegetarian delight!</p>
+      <div class="price">Rs 145</div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+   <div class="food-preview" data-target="food-5">
+      <img src="./images/ladoo.jpg" alt="">
+      <h3>Ladoo Dessert</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star-half-alt"></i>
+         <i class="fas fa-star-half-alt"></i>
+      </div>
+      <p>Sweeten your day with our delectable Ladoo Dessert. A perfect way to end your Indian feast!</p>
+      <div class="price">Rs 100</div>
+      <a href="#" class="btn">Order Now</a>
+   </div>
+
+</section>
+
+<!-- food preview section ends -->
+<!-- gallery section starts -->
+
+
+<section class="gallery" id="gallery">
+
+<div class="heading">
+   <span>captured memories</span>
+   <h3>from our customers</h3>
+</div>
+
+<div class="image-container">
+
+   <div class="image" data-target="food-1">
+      <img src="./images/gallery-1.jpg" alt="">
+   </div>
+
+
+
+</div>
+
+</section>
+
+<!-- gallery section ends -->
+<!-- menu section starts -->
+
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+   <span>special delights</span>
+   <h3>from our menu</h3>
+   </div>
+
+   <div class="box-container">
+
+      <div class="box" data-name="food-1">
+         <img src="./images/samosa.jpg" alt="">
+         <h3>Spicy Samosa</h3>
+         <div class="price">Rs 20</div>
+         <a href="#" class="btn">Order Now</a>
+      </div>
+
+      <div class="box" data-name="food-2">
+         <img src="./images/tikka.jpg" alt="">
+         <h3>Chicken Tikka</h3>
+         <div class="price">Rs 150</div>
+         <a href="#" class="btn">Order Now</a>
+      </div>
+
+      <div class="box" data-name="food-3">
+         <img src="./images/dosa.jpg" alt="">
+         <h3>Masala Dosa</h3>
+         <div class="price">Rs 80</div>
+         <a href="#" class="btn">Order Now</a>
+      </div>
+
+      <div class="box" data-name="food-4">
+         <img src="./images/paneer.jpg" alt="">
+         <h3>Paneer Butter Masala</h3>
+         <div class="price">Rs 145</div>
+         <a href="#" class="btn">Order Now</a>
+      </div>
+
+      <div class="box" data-name="food-5">
+         <img src="./images/ladoo.jpg" alt="">
+         <h3>Ladoo Dessert</h3>
+         <div class="price">Rs 150</div>
+         <a href="#" class="btn">Order Now</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+
+<!-- Menu section ends -->
+<!-- order section starts -->
+
+<section id="order" class="order">
+   <div class="heading">
+      <span>order now</span>
+      <h3>fast home delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3410.7687728681085!2d75.69758687524003!3d31.254823774336657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1699539499624!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+</section>
+
+<!-- order section ends-->
+<!-- blog section starts-->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-1.jpg" alt="">
+               <span>burger</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 4th oct, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by taste_junction </a>
+               </div>
+               <a href="#" class="title">Burger</a>
+               <p>"Embark on a culinary adventure with our delectable blog post, 'Bite into Joy: The Indian Burger Extravaganza.' We invite you to explore a fusion of flavors where traditional Indian spices meet the classic burger experience. </p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-2.jpg" alt="">
+               <span>sandwich</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 10th october, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by hunger_point </a>
+               </div>
+               <a href="#" class="title">Indian Sandwich</a>
+               <p>"Delve into the world of culinary innovation with our latest blog post, 'Savoring Bliss: The Art of Indian Sandwiches.' Experience the symphony of flavors as we redefine the sandwich game with a touch of Indian magic.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-3.jpg" alt="">
+               <span>chicken</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 15th October, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by chicken_toster </a>
+               </div>
+               <a href="#" class="title">Indian Special Chicken</a>
+               <p>"Embark on a flavorful escapade with our blog post, 'Soulful Symphonies: Exploring the Delights of Indian Chicken Dishes.' Immerse yourself in the aromatic world of spices and succulent textures as we unravel the tales behind India's beloved chicken delicacies.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-4.jpg" alt="">
+               <span>ice-cream</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 20th October, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by cold_bite </a>
+               </div>
+               <a href="#" class="title">Ice Cream</a>
+               <p>"Dive into a world of frozen delights with our blog post, 'Frozen Euphoria: The Sweet Symphony of Indian Ice Creams.' Indulge in the magic of vibrant flavors and unique combinations that define the essence of Indian ice creams.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-5.jpg" alt="">
+               <span>pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th October, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by pizza_junction </a>
+               </div>
+               <a href="#" class="title">Crispy Pizza</a>
+               <p>"Embark on a culinary voyage with our blog post, 'Pizza Passion: Exploring the Indian Twist.' We invite you to discover the delightful fusion of Italian charm and Indian flavors in our delectable pizza offerings.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-6.jpg" alt="">
+               <span>coffee</span>
+            </div> 
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 29th October, 2023 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chai_Junction </a>
+               </div>
+               <a href="#" class="title">coffee</a>
+               <p>"Sip, savor, and immerse yourself in the aromatic journey of our blog post, 'Aromatic Elixirs: Unraveling the Magic of Indian Coffee.' Embrace the warmth of Indian coffee culture as we delve into the rich history, brewing techniques, and diverse flavors that define this beloved beverage. </p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+
+
+
+<!-- blog section ends-->
+<!-- footer section starts-->
+
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+            <h3>opening hour</h3>
+            <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+917739755857</p>
+            <p>+919087654321</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>yadavravishekhar01@gmail.com</p>
+            <p>yadavravishekhar589@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>Lpu Law Gate,Phagwara</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      
+      <a href="https://twitter.com/Ravishe49003929" target="_blank" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/_ravi_here__/" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/ravishekhar-yadav-a85412227/" target="_blank" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit">created by <span>Ravishekhar Yadav</span> | all rights reserved.</div>
+
+</section>
+
+
+<!-- footer section ends-->
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+
+
+</body>
+</html>
